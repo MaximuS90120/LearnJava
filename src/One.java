@@ -1,29 +1,15 @@
-public class One {
+
+public class One{
     public static void main(String[] args) {
-
-                int mass[] = new int[12];
-
-                int maxint = Integer.MAX_VALUE;
-                int minint = Integer.MIN_VALUE;
-
-                for (int i = 0; i < mass.length; i++) {
-                    mass[i] = (int)(Math.random() * maxint);;
-                    System.out.print(mass[i] + " ");
-
-                }
-
-                int max = mass[0];
-                int index = 0;
-
-                for (int i = 0; i < mass.length; i++) {
-                    if (mass[i] >= max ) {
-                        max = mass[i];
-                        index = i;
-                    }
-                }
-
-                System.out.println();
-                System.out.println("Самое большое число: " + max);
-                System.out.println("Индекс самого большого числа: " + index);
-            }
-        }
+    String a = "Hello world!";
+    int april = 5;
+    int may = 6;
+    int june = 7;
+    }
+}
+//1 ФИО. возраст, айди.(1 сущность) + Город, айди, индекс города(2 сущность)(сущности ин аут)
+//2 Считать с блокнота
+//3 1 сущности присвоить 2 сущность
+//4 массив из 3 расширяется на 3 когда в нем три сущности
+//5 создать сущность с полями а)айди машины б)имя производителя в)марка машины г) серия машины
+//6 (б) содержит подсущности (в) и (г)
